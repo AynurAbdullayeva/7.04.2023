@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(53, 170, 238);
+}
+
+.box {
+    width: 20%;
+    height: 300px;
+    border: 9px solid rgb(185, 179, 179);
+    border-radius: 25px;
+    background-image: url(https://maphotoportrait.fr/1107-thickbox_default/photo-professionnelle-pour-cv-paris-finance-et-banque.jpg);
+    background-size:cover;
+    color: rgb(206, 201, 201);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box .text{
+    margin-top: 70%;
+    text-shadow: 1px 1px rgb(173, 171, 171);
+}
+.box .polygon{
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(100% 45%, 0 45%, 47% 100%);
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+button{
+   border: solid white;
+   border-radius: 12px ;
+   box-shadow: 0 8px 16px 0 ;
+  
+   width: 250px;
+   padding:0 ;
+   color: rgb(45, 125, 230); 
+}

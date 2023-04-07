@@ -1,0 +1,78 @@
+.boxies{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 100%;
+    height: 120px;
+    
+    
+   
+}
+.boxies .box1{
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.boxies .box2{
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 50%;
+    height: 80px; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;  
+}
+.box2.b1{
+border: 1px solid rgb(33, 137, 223);
+background-color: rgb(33, 137, 223);
+width: 170px;
+height: 60px;
+margin-top: 20px;
+}
+.b1.b2{
+    border: 1px solid red;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    margin-left: 130px; 
+    margin-bottom: 20px;
+}
+.b1.b3{
+    border: 1px solid  rgb(33, 137, 223);
+    background-color: rgb(33, 137, 223);
+    width: 160px;
+    height: 40px;
+    margin-top: 40px;
+}
+.b1.b4{
+    border: 1px solid  rgb(33, 137, 223);
+    background-color: rgb(33, 137, 223);
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.boxies .box3{
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.box3.b1{
+    border: 3px solid green;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
